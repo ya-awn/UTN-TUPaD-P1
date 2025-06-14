@@ -13,7 +13,7 @@ else:
     print("Desaprobado")
 
 #3  verificar si el numero es par 
-numero = int(input("ingrese un numero: "))
+numero = int(input("ingrese un numero par: "))
 if numero % 2 == 0:
     print("ha ingresado un numero par")
 else:
@@ -31,6 +31,7 @@ else:
     print("Adulto")
 
 # 5 Validar longitud de contraseña
+print("=== Longitud de contraseña 8 a 14 caracteres ===")
 contraseña = input("Ingrese una contraseña: ")
 if 8 <= len(contraseña) <= 14:
     print("Ha ingresado una contraseña correcta")
